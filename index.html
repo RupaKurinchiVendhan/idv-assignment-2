@@ -18,6 +18,8 @@
 	</header>
 	<main>
 		<section>
+			<h2>Investigative Questions for Visual Analysis on Housing Discrimination and Wealth Disparities in Greater Boston</h2>
+
 			<h2>Subtheme: Historical exclusions, Contemporary effects</h2>
 
 			<h3>Overall Analysis Questions</h3>
@@ -29,9 +31,8 @@
 		</section>
 
 		<section>
-			<!-- <h2>Investigative Questions for Visual Analysis on Housing Discrimination and Wealth Disparities in Greater Boston</h2> -->
 			<p>
-				The datasets used in this analysis combine historical redlining maps with contemporary zoning and demographic data to examine the long-term effects of discriminatory housing policies in Greater Boston. The redlining dataset, sourced from the Mapping Inequality project, includes spatial data on Home Owners' Loan Corporation (HOLC) neighborhood classifications from the 1930s, categorizing areas as "Best," "Still Desirable," "Definitely Declining," and "Hazardous"designations that systematically shaped investment and mortgage access. The zoning dataset, derived from the MAPC Zoning Atlas, provides insight into modern housing regulations, specifically the proportion of land zoned for single-family housing, which is a key factor in contemporary housing accessibility. Additionally, demographic attributes from U.S. Census and ACS data capture racial composition, homeownership rates, and median income levels at the municipal level. By merging these datasets, we can explore the persistence of redlining's impact on racial segregation, economic inequality, and zoning policies in present-day Boston. This integration enables a spatial and statistical analysis of how historical disinvestment continues to shape racial and economic disparities in homeownership and neighborhood development.
+				The datasets used in this analysis combine historical redlining maps with contemporary zoning and demographic data to examine the long-term effects of discriminatory housing policies in Greater Boston. The redlining dataset, sourced from the Mapping Inequality project, includes spatial data on Home Owners' Loan Corporation (HOLC) neighborhood classifications from the 1930s, categorizing areas as "Best," "Still Desirable," "Definitely Declining," and "Hazardous"designations that systematically shaped investment and mortgage access. The zoning dataset, derived from the MAPC Zoning Atlas, provides insight into modern housing regulations, specifically the proportion of land zoned for single-family housing, which is a key factor in contemporary housing accessibility. Additionally, demographic attributes from U.S. Census and ACS data capture racial composition, homeownership rates, and median income levels at the municipal level. Transit data from the MBTA’s GTFS feed allows for an analysis of transit accessibility in historically redlined areas, examining whether modern transit infrastructure reinforces or mitigates historical disparities. Finally, residential property transaction data, including home prices, buyer and seller characteristics, and investment trends, provides insight into how redlining’s legacy influences present-day real estate markets. By merging these datasets, we can assess how historical disinvestment continues to shape racial and economic disparities in homeownership, housing affordability, and access to public transportation.
 			</p>
 
 			<h2>Discoveries & Insights</h2>
@@ -39,65 +40,94 @@
 			<figure>
 				<img src="figs/red_dist.png" width=700 alt="" />
 				<figcaption>
-					This bar chart shows the number of areas that fell into each historical redlining category: "Best," "Still Desirable," "Definitely Declining," and "Hazardous." The results indicate that a majority of the areas were labeled as "Still Desirable" and "Definitely Declining." This suggests that while some neighborhoods were seen as stable investments, a significant portion was already experiencing signs of disinvestment and risk, limiting access to homeownership and financial resources for residents (see "The Color of Wealth"). It is crucial to explore whether these classifications still correlate with present-day racial and economic disparities, as redlining shaped long-term patterns of segregation and wealth accumulation. This analysis raises key questions: Do cities with more historically redlined areas still have lower median incomes and homeownership rates today? Are formerly "Hazardous" neighborhoods still struggling economically, or has gentrification reshaped their demographic and financial landscapes? These questions provide an insightful backdrop for further exploration of redlining's enduring impact on urban inequality.</figcaption>
+					This bar chart shows the number of areas that fell into each historical redlining category: "Best," "Still Desirable," "Definitely Declining," and "Hazardous." 
+				</figcaption>
 			</figure>
-
 			<p>
-				A key question arises: Did these "Best" and "Still Desirable" neighborhoods remain financially stable and predominantly white over time? If these areas continued to receive favorable investment while "Declining" and "Hazardous" zones were excluded, we might expect to see persistent disparities in homeownership, wealth accumulation, and neighborhood conditions. Additionally, we should investigate whether historical "Best" zones align with current high-income, high-property-value areas, while former "Hazardous" zones correlate with lower-income communities today. This insight would help us understand the long-term impact of early housing policies on modern-day segregation and economic inequality.
+				The results indicate that a majority of the areas were labeled as "Still Desirable" and "Definitely Declining." This suggests that while some neighborhoods were seen as stable investments, a significant portion was already experiencing signs of disinvestment and risk, limiting access to homeownership and financial resources for residents (see "The Color of Wealth"). It is crucial to explore whether these classifications still correlate with present-day racial and economic disparities, as redlining shaped long-term patterns of segregation and wealth accumulation. This analysis raises key questions: Do cities with more historically redlined areas still have lower median incomes and homeownership rates today? Are formerly "Hazardous" neighborhoods still struggling economically, or has gentrification reshaped their demographic and financial landscapes? These questions provide an insightful backdrop for further exploration of redlining's enduring impact on urban inequality.
 			</p>
 
 			<h3>Do historically "Hazardous" areas still have lower household incomes today? </h3>
 			
+			<p>
+				The legacy of redlining continues to shape economic inequality, influencing wealth accumulation, property values, and neighborhood stability. As outlined in the overview of the sub-theme given in the assignment, redlining systematically excluded marginalized communities from homeownership and financial investment, reinforcing long-term disparities. A key question arises: Did these "Best" and "Still Desirable" neighborhoods remain financially stable and predominantly white over time? If these areas continued to receive favorable investment while "Declining" and "Hazardous" zones were excluded, we might expect to see persistent disparities in homeownership, wealth accumulation, and neighborhood conditions. Additionally, we should investigate whether historical "Best" zones align with current high-income, high-property-value areas, while former "Hazardous" zones correlate with lower-income communities today. This insight would help us understand the long-term impact of early housing policies on modern-day segregation and economic inequality (see "How Has Boston Gotten Away with Being Segregated for So Long?")
+			</p>
+
 			<figure>
 				<img src="figs/median.png" width= 1000 alt="" />
 				<figcaption>
-					The redlining map visually represents how different areas were categorized, with "Best" areas clustered in wealthier neighborhoods and "Hazardous" areas concentrated in historically marginalized communities. The clustering of grades suggests that redlining was not random but systematically designed to concentrate investment in select neighborhoods while excluding others. A noticeable pattern is that the "Hazardous" zones tend to be in the same areas that remain low-income today. This visualization raises important insights on the extent to which these historically redlined neighborhoods experienced economic mobility.
+					Geographic maps of historical redlining (left) and median household income today (right) across the Greater Boston area.
 				</figcaption>
 			</figure>
+			<p>
+				The redlining map visually represents how different areas were categorized, with "Best" areas clustered in wealthier neighborhoods and "Hazardous" areas concentrated in historically marginalized communities. The clustering of grades suggests that redlining was not random but systematically designed to concentrate investment in select neighborhoods while excluding others. A noticeable pattern is that the "Hazardous" zones tend to be in the same areas that remain low-income today. This visualization raises important insights on the extent to which these historically redlined neighborhoods experienced economic mobility.
+			</p>
 
-			<figure>
+			<!-- <figure>
 				<img src="figs/median_trend.png" alt="" />
 				<figcaption>
-					I was immediately curious to explore the trend in modern-day median income across the historical redlining categories on average. The results clearly show a downward trend, with historically "Hazardous" areas having significantly lower incomes than "Best" areas. The income gap is not as dramatic as I had initially expected it to be, which leads me to wonder if development has reversed this trend in some "Hazardous" areas, leading to income growth, or if there are formerly "Best" areas that have declined economically. 
+					
 				</figcaption>
-			</figure>
+			</figure> -->
 
 			<figure>
 				<img src="figs/inc_dist.png" alt="" />
 				<figcaption>
-					Next, I wanted to more substantially explore the distributions of median household income per residential category to gain a more nuanced understanding of the relationship between redlining and contemporary socio-economic status. This boxplot illustrates the median household income today for areas historically labeled as Best, Still Desirable, Declining, and Hazardous. The income distributions in "Hazardous" areas are more left-skewed, indicating that a larger share of households still earn lower incomes, with fewer outliers reaching higher income levels. This suggests that economic mobility in these areas remains limited, with only some exceptions. While some formerly redlined areas have experienced redevelopment, the persistent skew in "Hazardous" zones suggests that past redlining decisions have had long-term economic consequences, restricting wealth accumulation and economic mobility in formerly redlined neighborhoods. In contrast, "Best" and "Still Desirable" neighborhoods exhibit a more bimodal income distribution, reflecting a mix of historically wealthy households alongside newer, lower-income residents, possibly due to gentrification, changing housing markets and demographics, or policy-driven shifts.
+					A boxplot illustrating the median household income today for areas historically labeled as Best, Still Desirable, Declining, and Hazardous. 
 				</figcaption>
 			</figure>
+			<p>
+				I was immediately curious to explore the trend in modern-day median income across the historical redlining categories on average. The results clearly show a downward trend, with historically "Hazardous" areas having significantly lower incomes than "Best" areas. The income gap is not as dramatic as I had initially expected it to be, which leads me to wonder if development has reversed this trend in some "Hazardous" areas, leading to income growth, or if there are formerly "Best" areas that have declined economically. The boxplot allows us to more substantially explore the distributions of median household income per residential category to gain a more nuanced understanding of the relationship between redlining and contemporary socio-economic status. The income distributions in "Hazardous" areas are more left-skewed, indicating that a larger share of households still earn lower incomes, with fewer outliers reaching higher income levels. This suggests that economic mobility in these areas remains limited, with only some exceptions. While some formerly redlined areas have experienced redevelopment, the persistent skew in "Hazardous" zones suggests that past redlining decisions have had long-term economic consequences, restricting wealth accumulation and economic mobility in formerly redlined neighborhoods. In contrast, "Best" and "Still Desirable" neighborhoods exhibit a more bimodal income distribution, reflecting a mix of historically wealthy households alongside newer, lower-income residents, possibly due to gentrification, changing housing markets and demographics, or policy-driven shifts.
+			</p>
 
-			
-
-			<!-- <figure>
-				<img src="figs/ridge_dist.png" alt="" />
+			<figure>
+				<img src="figs/transit.png" width = 1000 alt="" />
 				<figcaption>
-					The ridge density plot provides a nuanced view of household income distribution across historical redlining classes. Unlike the boxplot, which primarily emphasizes median values and interquartile ranges, this representation highlights the full distribution of incomes, revealing important variations that the median alone may obscure.  A clear trend emerges: regions historically classified as "Hazardous" tend to have lower contemporary median household incomes, reinforcing the long-term economic consequences of redlining. However, the distributions in these areas are much more widespread, suggesting that some households have experienced economic mobility, while others remain economically disadvantaged. This variability could be influenced by gentrification, policy interventions, or shifting economic conditions over time. Notably, while "Best" neighborhoods continue to exhibit higher and more concentrated income levels, the income distribution in "Hazardous" areas is more diffused--potentially indicating both persistent economic inequality and localized areas of growth. This suggests that although redlining's economic effects have endured, some formerly restricted zones have experienced change and redevelopment.  
+					A map showing historical redlining and its impact on MBTA transit routes, highlighting the lasting consequences for marginalized communities.
 				</figcaption>
-			</figure> -->
+			</figure>
+			<p>
+				Along similar lines, I next wanted to explore the impact of historical redlining on modern-day socioeconomic status in the form of transit equity. Historical redlining has had lasting effects on modern transit equity, reinforcing economic disparities and spatial segregation. The MBTA's rapid transit lines primarily serve areas historically classified as "Best" (A) and "Still Desirable" (B), while neighborhoods formerly labeled as "Declining" (C) and "Hazardous" (D) often have fewer direct transit connections or are bypassed entirely. This pattern limits access to reliable public transportation for historically marginalized communities, further restricting economic opportunities and mobility. Additionally, these transit disparities align with restrictive zoning policies, reinforcing economic and racial segregation. Addressing these inequities requires comprehensive zoning and transportation reforms that prioritize historically underserved areas, ensuring equitable access to transit and economic opportunities.
+			</p>
+
+			<figure>
+				<img src="figs/price.png" width = 1000 alt="" />
+				<figcaption>
+					This line chart tracks median home prices from 2000 to the present, categorized by historical redlining grades. The colors correspond to different redlining classifications, revealing long-term disparities and potential shifts in economic mobility.
+				</figcaption>
+			</figure>
+			<p>
+				The data reveals a persistent wealth gap between historically higher- and lower-grade areas, though appreciation trends indicate some economic shifts. Although we do not have sufficient data for "Best" neighborhoods, we observe that "Still Desirable" neighborhoods consistently maintain the highest median home prices, reinforcing the long-term advantages of favorable lending policies. Interestingly, formerly "Hazardous" and "Definitely Declining" areas exhibit strong price growth, particularly post-2015, suggesting gentrification in certain neighborhoods. The rapid increase in prices, particularly in some "Hazardous" areas, may reflect new development and shifting demographics. However, despite these gains, the overall gap between redlining categories remains evident, highlighting the lingering effects of historical disinvestment.
+	
+			</p>
+
 			<p>
 				These visualization raises important questions: How do these income patterns correlate with changes in homeownership rates and racial demographics? Exploring these factors further could provide deeper insights into the long-term spatial consequences of redlining.
 			</p>
 
 			<h3>How does historical redlining correlate with contemporary homeownership rates across different racial and ethnic groups in Greater Boston?</h3>
 			
-			Last week's reading group and the background readings for this sub-theme highlight that white households in Boston have significantly higher homeownership rates than nonwhite households, with only one-third of U.S. Black households and even lower rates among Dominicans and Puerto Ricans owning homes (see "Exclusionary by Design: An Investigation of Zoning's Use as a Tool of Race, Class, and Family Exclusion in Boston's Suburbs, 1920 to Today"). Given that redlining systematically denied Black and immigrant communities access to home loans, I want to investigate whether areas historically marked as "Hazardous" or "Declining" on redlining maps still exhibit lower homeownership rates today.
+			Last week's reading group and the background readings (see "The Color of Wealth") for this sub-theme highlight that white households in Boston have significantly higher homeownership rates than nonwhite households, with only one-third of U.S. Black households and even lower rates among Dominicans and Puerto Ricans owning homes (see "Exclusionary by Design: An Investigation of Zoning's Use as a Tool of Race, Class, and Family Exclusion in Boston's Suburbs, 1920 to Today"). Given that redlining systematically denied Black and immigrant communities access to home loans, I want to investigate whether areas historically marked as "Hazardous" or "Declining" on redlining maps still exhibit lower homeownership rates today.
 
 			<figure>
 				<img src="figs/ownershpi_zone.png" alt="" />
 				<figcaption>
-					This line chart visualizes the current homeownership rate in neighborhoods that were historically categorized under different redlining grades. If redlining has had a lasting impact, we would expect "Best" and "Still Desirable" areas to have the highest homeownership rates, while "Declining" and "Hazardous" areas may still have lower ownership levels, reflecting past barriers to mortgage access. However, we observe that homeownership is highest for formerly "Hazardous" neighborhoods despite being formerly redlined, potentially indicating the effects of redevelopment. Notably, the difference in homeownership rates remain fairly similar (between 3.7 and 4.0) across each residential category. However, the "Hazardous" neighborhoods having comparable homeownership rates still suggests development within the past century. Comparing this data with racial demographics could reveal whether historically redlined areas are still primarily nonwhite or if demographic shifts have occurred due to housing market trends.
+					This line chart visualizes the current homeownership rate in neighborhoods that were historically categorized under different redlining grades.
 				</figcaption>
 			</figure>
+			<p>
+				If redlining has had a lasting impact, we would expect "Best" and "Still Desirable" areas to have the highest homeownership rates, while "Declining" and "Hazardous" areas may still have lower ownership levels, reflecting past barriers to mortgage access. However, we observe that homeownership is highest for formerly "Hazardous" neighborhoods despite being formerly redlined, potentially indicating the effects of redevelopment. Notably, the difference in homeownership rates remain fairly similar (between 3.7 and 4.0) across each residential category. However, the "Hazardous" neighborhoods having comparable homeownership rates still suggests development within the past century. Comparing this data with racial demographics could reveal whether historically redlined areas are still primarily nonwhite or if demographic shifts have occurred due to housing market trends.
+			</p>
 
 			<figure>
 				<img src="figs/racial_homeownership_animation.gif" alt="" />
 				<figcaption>
-					This animation illustrates the distribution of homeownership rates among different racial and ethnic groups across historical redlining categories. From these charts, we observe that Non-Hispanic White households have the highest homeownership rates across all redlining categories, with the most concentrated populations in the "Best" and "Still Desirable" areas. This aligns with historical advantages where these high-graded neighborhoods were heavily prioritized for mortgage lending and investment. Conversely, Black (Non-Hispanic), Hispanic/Latino, and Asian households exhibit proportionately higher homeownership rates in the "Definitely Declining" and "Hazardous" areas, which were systematically denied loans and investment opportunities due to redlining policies. Interestingly, even in formerly "Best" neighborhoods, racial disparities persist, indicating that there is a consistent trend in the demographic distribution of the Greater Boston area populations, and that historical advantages have potentially contributed to long-term homeownership inequality.
+					An animation illustrating the distribution of homeownership rates among different racial and ethnic groups across historical redlining categories. 
 				</figcaption>
 			</figure>
+			<p>
+				From these charts, we observe that Non-Hispanic White households have the highest homeownership rates across all redlining categories, with the most concentrated populations in the "Best" and "Still Desirable" areas. This aligns with historical advantages where these high-graded neighborhoods were heavily prioritized for mortgage lending and investment. Conversely, Black (Non-Hispanic), Hispanic/Latino, and Asian households exhibit proportionately higher homeownership rates in the "Definitely Declining" and "Hazardous" areas, which were systematically denied loans and investment opportunities due to redlining policies. Interestingly, even in formerly "Best" neighborhoods, racial disparities persist, indicating that there is a consistent trend in the demographic distribution of the Greater Boston area populations, and that historical advantages have potentially contributed to long-term homeownership inequality.
+			</p>
 
 			<!-- <figure>
 				<img src="figs/ownership_race.png" alt="" />
@@ -109,49 +139,65 @@
 			<figure>
 				<img src="figs/racial_distribution_redlining.gif" width=1000 alt="" />
 				<figcaption>
-					This animation contains the geographic maps of the Greater Boston area illustrating how current racial distributions (right) align with historical redlining zones (left), revealing the long-term spatial impact of discriminatory housing policies. Racial minorities, including Black, Hispanic/Latino, and Asian populations, remain largely concentrated in historically redlined "Hazardous" and "Definitely Declining" areas, reinforcing the systemic barriers to wealth accumulation and homeownership that redlining created. In contrast, White populations appear more widely distributed across both formerly redlined and non-redlined areas. While "Best" and "Still Desirable" areas remain predominantly White, their presence in some historically redlined areas suggests either population growth, long-term residency or more recent migration linked to gentrification. Ultimately, the maps provide a powerful visual confirmation of redlining's enduring influence, highlighting the need for policies that promote equitable housing access, economic mobility, and long-term neighborhood stability.
+					An animation of the geographic maps of the Greater Boston area illustrating how current racial distributions (right) align with historical redlining zones (left). 
 				</figcaption>
 			</figure>
+			<p>
+				The graphs above reveal the long-term spatial impact of discriminatory housing policies. Racial minorities, including Black, Hispanic/Latino, and Asian populations, remain largely concentrated in historically redlined "Hazardous" and "Definitely Declining" areas, reinforcing the systemic barriers to wealth accumulation and homeownership that redlining created. In contrast, White populations appear more widely distributed across both formerly redlined and non-redlined areas. While "Best" and "Still Desirable" areas remain predominantly White, their presence in some historically redlined areas suggests either population growth, long-term residency or more recent migration linked to gentrification. Ultimately, the maps provide a powerful visual confirmation of redlining's enduring influence, highlighting the need for policies that promote equitable housing access, economic mobility, and long-term neighborhood stability.
+			</p>
 
 			<h3>Is there a relationship between historical redlining and current zoning regulations in Greater Boston municipalities? Are former "Hazardous" areas more likely to be zoned for multi-family housing today?</h3>
 
 			<p>
-				Single-family zoning has historically been used to maintain segregation by making housing more expensive and limiting affordability for lower-income residents, who are disproportionately from nonwhite communities. Previous exploration and the background readings suggest that communities of color in Greater Boston tend to have significantly lower median wealth than white households, making it harder to access housing in areas dominated by single-family zoning (see "The Color of Wealth in Boston"). I want to analyze whether municipalities with high percentages of single-family zoning have a higher proportion of white residents and wealthier households.  
+				Single-family zoning has historically been used to maintain segregation by making housing more expensive and limiting affordability for lower-income residents, who are disproportionately from nonwhite communities. Previous exploration and the background readings suggest that communities of color in Greater Boston tend to have significantly lower median wealth than white households, making it harder to access housing in areas dominated by single-family zoning (see "Exclusionary by Design: An Investigation of Zoning's Use as a Tool of Race, Class, and Family Exclusion in Boston's Suburbs, 1920 to Today"). I want to analyze whether municipalities with high percentages of single-family zoning have a higher proportion of white residents and wealthier households.  
 			</p>
+
 			<figure>
 				<img src="figs/income_zone.png" alt="" />
 				<figcaption>
-					The ridge density plot reveals a gap in median household income between single-family and multi-family housing zones, although I was surprised to see it is not as substantial as I had hypothesized. However, this still confirms my initial hypothesis that single-family zoning is predominantly associated with higher-income households, reinforcing the idea that restrictive zoning serves as an economic barrier. In contrast, areas zoned for other housing types exhibit a wider range of incomes, suggesting they are more accessible to lower-income residents.
+					A ridge density plot comparing median household income distributions between single-family and multi-family housing zones today.
 				</figcaption>
 			</figure>
+			<p>
+				The plot above reveals a gap in median household income between single-family and multi-family housing zones, although I was surprised to see it is not as substantial as I had hypothesized. However, this still confirms my initial hypothesis that single-family zoning is predominantly associated with higher-income households, reinforcing the idea that restrictive zoning serves as an economic barrier. In contrast, areas zoned for other housing types exhibit a wider range of incomes, suggesting they are more accessible to lower-income residents.
+			</p>
 
 			<figure>
 				<img src="figs/race_zone.png" alt="" />
 				<figcaption>
-					The stacked bar chart comparing racial compositions across single-family and other housing zones highlights stark racial disparities. We observe that single-family zoned areas have a significantly higher percentage of non-Hispanic white residents, whereas multi-family zones show a more racially diverse mix, including higher proportions of Black, Hispanic, and Asian populations. This aligns with historical exclusionary zoning practices, where single-family housing was often used as a mechanism to prevent racial and economic integration. Examining whether nonwhite populations are concentrated in specific municipalities due to legacy effects of redlining could provide further insights.
+					Racial composition in single-family vs. multi-family hosuing zones for predominant races across neighborhoods today.
 				</figcaption>
 			</figure>
+			<p>
+				The stacked bar chart comparing racial compositions across single-family and other housing zones highlights stark racial disparities. We observe that single-family zoned areas have a significantly higher percentage of non-Hispanic white residents, whereas multi-family zones show a more racially diverse mix, including higher proportions of Black, Hispanic, and Asian populations. This aligns with historical exclusionary zoning practices, where single-family housing was often used as a mechanism to prevent racial and economic integration. Examining whether nonwhite populations are concentrated in specific municipalities due to legacy effects of redlining could provide further insights.
+			</p>
 
 			<figure>
 				<img src="figs/redline_family.png" width = 1000 alt="" />
 				<figcaption>
-					The geographic map of single-family zoning helps us visualize the stark contrast between neighboring communities in the Greater Boston area. In comparing historical redlining zones, we see that formerly "Best" areas have the highest levels of single-family zoning today, meaning that restrictive policies are still being used to maintain exclusivity and wealth in the form of single-family zones. Additionally, "Hazardous" areas have the lowest levels of single-family zoning. This suggests that these areas were more likely to be converted into multi-family housing or industrial zones over time. Notably, some areas on the outskirts of the Greater Boston area have 0% single-family housing zones, which lends to some skepticism about the effects of data quality and oversimplified sampling strategies. However, this analysis focuses on overall and relative trends with the single-family housing data.
+					Geographic maps of historical redlining (left) and single-family zoning across the Greater Boston area.
 				</figcaption>
 			</figure>
+			<p>
+				The map of single-family zoning helps us visualize the stark contrast between neighboring communities in the Greater Boston area. In comparing historical redlining zones, we see that formerly "Best" areas have the highest levels of single-family zoning today, meaning that restrictive policies are still being used to maintain exclusivity and wealth in the form of single-family zones. Additionally, "Hazardous" areas have the lowest levels of single-family zoning. This suggests that these areas were more likely to be converted into multi-family housing or industrial zones over time. Notably, some areas on the outskirts of the Greater Boston area have 0% single-family housing zones, which lends to some skepticism about the effects of data quality and oversimplified sampling strategies. However, this analysis focuses on overall and relative trends with the single-family housing data.
+			</p>
 
 			<figure>
 				<img src="figs/median_family.png" width = 1000 alt="" />
 				<figcaption>
-					Building off of the first big-picture question we explored, I was curious to see how median income may be a complementary/confounding factor in this analysis. The geographic map of household income highlights wealth disparities across Metro Boston municipalities. Higher-income areas correlate with high single-family zoning, reinforcing patterns of economic segregation. The sharp gradients of household income across municipalities suggests that lower-income areas have been zoned more aggressively for multi-family housing, effectively relegating affordable housing to certain municipalities while wealthier areas maintain restrictive zoning. This raises a policy question: Are municipalities using zoning laws to control the socio-economic composition of their communities? We do not have the data to support the exploration of this question yet.
+					The distribution of contemporary median household income (left) and the percentage of single-family zoning (right) across the Greater Boston area.
 				</figcaption>
 			</figure>
+			<p>
+				Building off of the first big-picture question we explored, I was curious to see how median income may be a complementary/confounding factor in this analysis. The geographic map of household income highlights wealth disparities across Metro Boston municipalities. Higher-income areas correlate with high single-family zoning, reinforcing patterns of economic segregation. The sharp gradients of household income across municipalities suggests that lower-income areas have been zoned more aggressively for multi-family housing, effectively relegating affordable housing to certain municipalities while wealthier areas maintain restrictive zoning. This raises a policy question: Are municipalities using zoning laws to control the socio-economic composition of their communities? We do not have the data to support the exploration of this question yet.
+			</p>
 
 		</section>
 
 		<section>
 			<h2>Summary</h2>
 			<p>
-				From this analysis, I have learned that historically "Hazardous" areas still have lower median incomes than "Best" neighborhoods, with left-skewed distributions indicating persistent economic struggles. While some have seen income growth, this is often due to gentrification rather than true mobility for long-term residents. Redlining's legacy continues to restrict wealth accumulation and economic opportunity for affected communities.
+				From this analysis, I have learned that historically "Hazardous" areas still have lower median incomes than "Best" neighborhoods, with left-skewed distributions indicating persistent economic struggles. While some have seen income growth, this is often due to gentrification rather than true mobility for long-term residents. Redlining's legacy continues to restrict wealth accumulation, access to transit, and economic opportunity for affected communities.
 			</p>
 			<p>
 				White households maintain higher homeownership rates across all redlining categories, while Black, Hispanic, and Asian groups face continued barriers even in historically "Best" areas. Surprisingly, homeownership rates have risen most in "Hazardous" areas, likely due to redevelopment and demographic shifts, though this may not benefit original residents. Formerly redlined areas remain racially segregated, reinforcing historical exclusion.
